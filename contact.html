@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(247, 155, 155)
+        }
+
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+
+            border: 8px solid rgba(255, 94, 0, 0.342);
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: #000000;
+            color: rgb(0, 0, 0);
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #0011ff;
+        }
+
+        .container {
+            border-radius: 5px;
+            background-color: #000000;
+            padding: 20px;
+        }
+        h3 {
+            color: #b16948;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="topnav">
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./resources.html">Resources</a>
+       </nav>
+    </header>
+    <h1></h1>
+    <div>
+        <form action="post">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="First Name">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Last Name">
+
+            <label for="email">Contact Email</label>
+            <input type="text" id="email" name="Shrimp Update Email List" placeholder="Be First To Recieve Shrimp Updates">
+
+            <label for="Favorite Shrimp Dish">What Are Your Top 20 Ways to Prepare Shrimp?</label>
+            <textarea id="I'd Love to Hear From You!" name="I'd Love to Hear From You!" placeholder="I know it's hard just picking 20!!" style="height:60px"></textarea>
+
+            <label for="I'd Love to Hear From You!">I'd Love to Hear From You!</label>
+            <textarea id=" I'd Love to Hear From You!" name="I'd Love to Hear From You!" placeholder="Share your thoughts shrimp soldier" style="height:100px"></textarea>
+
+            <input type="Click to Submit Player" value="Welcome To Shrimptopia">
+        </form>
+    </div>
+    <footer></footer>
+</body>
+</html>
